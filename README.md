@@ -5,10 +5,13 @@ This tool is intended for obfuscation, not cryptographic security. It is useful 
 
 ## The tool supports the following output formats:
 
-bn – raw binary
-hx – hexadecimal string
-ca – C‑array
-bs – Base64
+| argument | Description        |
+|----------|--------------------|
+| bn       | raw binary         |
+| hx       | hexadecimal string |
+| ca       | C‑array            |
+| bs       | Base64             |
+
 
 ## Features
 
