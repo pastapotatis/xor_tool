@@ -31,6 +31,7 @@ python xor_tool.py -i <input-file> -o <output-file> -e <key> -f <format>
 
 <br>
 ### Arguments
+
 | Flag | Long Option      | Description                          |
 |------|------------------|--------------------------------------|
 | -i   | --input-file     | Path to the file you want to XOR     |
