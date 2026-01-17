@@ -38,7 +38,6 @@ python xor_tool.py -i <input-file> -o <output-file> -e <key> -f <format>
 | -e   | --encryption-key | XOR key (any string)                 |
 | -f   | --format         | Output format: bn, hx, ca, bs        |
 
-
 <br>
 ### Examples
 XOR to raw binary with flag
