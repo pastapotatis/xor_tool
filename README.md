@@ -30,11 +30,13 @@ python xor_tool.py -i <input-file> -o <output-file> -e <key> -f <format>
 ```
 
 ### Arguments
-Flag	Long Option	      Description
--i	  --input-file	    Path to the file you want to XOR
--o	  --output-file	    Output filename
--e	  --encryption-key	XOR key (any string)
--f	  --format	        Output format: bn, hx, ca, bs
+| Flag | Long Option      | Description                          |
+|------|------------------|--------------------------------------|
+| -i   | --input-file     | Path to the file you want to XOR     |
+| -o   | --output-file    | Output filename                      |
+| -e   | --encryption-key | XOR key (any string)                 |
+| -f   | --format         | Output format: bn, hx, ca, bs        |
+
 
 <br><br>
 ## Examples
