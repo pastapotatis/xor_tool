@@ -3,7 +3,6 @@
 A lightweight command‑line utility for XOR‑encoding and decoding binary data.
 This tool is intended for obfuscation, not cryptographic security. It is useful for transforming shellcode, payloads, or any raw byte sequence into different output formats.
 
-<br><br>
 ## The tool supports the following output formats:
 
 bn – raw binary
@@ -11,7 +10,6 @@ hx – hexadecimal string
 ca – C‑array
 bs – Base64
 
-<br><br>
 ## Features
 
 XOR any file with a user‑defined key
@@ -21,7 +19,6 @@ XOR any file with a user‑defined key
 * Self‑test to verify if encryption is successful
 * Clean and simple CLI interface
 
-<br><br>
 ## Usage
 
 ### Basic syntax
@@ -29,7 +26,6 @@ XOR any file with a user‑defined key
 python xor_tool.py -i <input-file> -o <output-file> -e <key> -f <format>
 ```
 
-<br>
 ### Arguments
 
 | Flag | Long Option      | Description                          |
@@ -39,7 +35,7 @@ python xor_tool.py -i <input-file> -o <output-file> -e <key> -f <format>
 | -e   | --encryption-key | XOR key (any string)                 |
 | -f   | --format         | Output format: bn, hx, ca, bs        |
 
-<br>
+
 ### Examples
 XOR to raw binary with flag
 ```
@@ -56,7 +52,7 @@ unsigned char buf[] = {
     0x8F, 0x9F, 0x07, 0x73, 0x12, 0x6F, 0x01, ...
 };
 
-<br><br>
+
 ## Verification
 
 After writing the output file, the tool performs a self‑test by XOR‑decoding the data again and checking if it matches the original input:
@@ -66,7 +62,7 @@ After writing the output file, the tool performs a self‑test by XOR‑decoding
 If data does not match:
 "Encryption/decryption did not match or other error"
 
-<br><br>
+
 ## Disclaimer
 
 This tool is not intended for secure encryption.
