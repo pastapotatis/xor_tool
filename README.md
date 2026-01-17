@@ -5,7 +5,7 @@ This tool is intended for obfuscation, not cryptographic security. It is useful 
 
 ## The tool supports the following output formats:
 
-| argument | Description        |
+| Argument | Description        |
 |----------|--------------------|
 | bn       | raw binary         |
 | hx       | hexadecimal string |
