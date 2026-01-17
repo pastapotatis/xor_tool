@@ -29,6 +29,7 @@ XOR any file with a user‑defined key
 python xor_tool.py -i <input-file> -o <output-file> -e <key> -f <format>
 ```
 
+<br>
 ### Arguments
 | Flag | Long Option      | Description                          |
 |------|------------------|--------------------------------------|
@@ -38,8 +39,8 @@ python xor_tool.py -i <input-file> -o <output-file> -e <key> -f <format>
 | -f   | --format         | Output format: bn, hx, ca, bs        |
 
 
-<br><br>
-## Examples
+<br>
+### Examples
 XOR to raw binary with flag
 ```
 python xor_tool.py -i payload.bin -o encoded.bin -e secret123 -f bn
