@@ -24,7 +24,7 @@ XOR any file with a user‑defined key
 <br><br>
 ## Usage
 
-### Basic syntax:
+### Basic syntax
 ```
 python xor_tool.py -i <input-file> -o <output-file> -e <key> -f <format>
 ```
