@@ -24,12 +24,12 @@ XOR any file with a user‑defined key
 
 ## Usage
 
-### Basic syntax
+#### Basic syntax
 ```
 python xor_tool.py -i <input-file> -o <output-file> -e <key> -f <format>
 ```
 
-### Arguments
+#### Arguments
 
 | Flag | Long Option      | Description                          |
 |------|------------------|--------------------------------------|
@@ -39,7 +39,7 @@ python xor_tool.py -i <input-file> -o <output-file> -e <key> -f <format>
 | -f   | --format         | Output format: bn, hx, ca, bs        |
 
 
-### Examples
+#### Examples
 XOR to raw binary with flag
 ```
 python xor_tool.py -i payload.bin -o encoded.bin -e secret123 -f bn
@@ -50,7 +50,7 @@ With long option
 python xor_tool.py --input-file shellcode.raw --output-file shellcode.c --encryption-key secret123 --format ca
 ```
 
-### Output Format Example C array
+#### Output Format Example C array
 unsigned char buf[] = {
     0x8F, 0x9F, 0x07, 0x73, 0x12, 0x6F, 0x01, ...
 };
