@@ -66,6 +66,12 @@ If data does not match:
 "Encryption/decryption did not match or other error"
 
 
+## Requirements
+Requirements.txt
+colorama==0.4.6
+pyfiglet==1.0.4
+
+
 ## Disclaimer
 
 This tool is not intended for secure encryption.
