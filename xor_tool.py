@@ -15,10 +15,6 @@ def load_file(filename):
     """
     Load a file from disk and return its raw bytes.
     """
-    if not os.path.exists(filename):
-        print(f"Error, can't find filename: \"{filename}\"")
-        sys.exit(1)
-
     try:
         with open(filename, "rb") as file:
             return file.read()
